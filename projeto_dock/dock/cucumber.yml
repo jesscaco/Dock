@@ -1,0 +1,8 @@
+default: -p junit -p bdd -p html_report -p json_report -p dot -p html
+
+html_report: --format pretty --format html --out=features_report.html
+dot: --format progress
+bdd: --format pretty 
+junit: --format pretty -f junit -o report.xml
+json_report: --format progress --format json --out=features_report.json
+html: --format html --out=feature.html
