@@ -1,6 +1,6 @@
 Capybara_rspec
 
-Projeto web para a area de Service Desk, automação em Ruby 
+Projeto web, automação em Ruby 
 
 1-Passo
 
